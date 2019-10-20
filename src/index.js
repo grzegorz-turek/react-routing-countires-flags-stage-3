@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import { Router, hashHistory } from 'react-router';
 import routes from './routes';
-//import DevTools from './DevTools';// wersja z DevToolsami
+import DevTools from './DevTools';// wersja z DevToolsami
 
 render(
     <Provider store={store}>
